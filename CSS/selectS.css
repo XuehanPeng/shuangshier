@@ -1,0 +1,151 @@
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.title{
+	
+	display: inline-block;
+	
+}
+.title h3{
+	margin-left: 100px;
+	
+}
+.com-content{
+	
+	margin:auto;
+	overflow:hidden;
+	position:relative;
+	box-shadow: 0 0 10px #000;
+	min-width:320px;
+	max-width:540px;
+	}
+/*公共头部*/
+.com-header-area{
+	height: 91px;
+	border-top:1px solid #757c8d;
+	background:#f39c12;
+	color:#fff;
+	line-height: 91px;
+	}
+.com-header-logo{
+	width:100px;
+	height:35px;
+	float:left;
+	margin:8px 0 8px 8px;
+	text-align: center;
+	
+	}
+.header-right{
+	width: 31px;
+	height: 36px;
+	margin-right: 33px;
+	padding-top: 10px;
+}	
+/*content内容部分，包括左侧的选项卡*/
+.com-content-area{
+	height: 700px;
+	
+	}
+.content_left{
+	width: 200px;
+	height: 100%;
+	background-color:#ecf0f1;
+	
+}
+.content_left li{
+	height:86px;
+	border-bottom: 1px solid #e5eaeb;
+	line-height: 86px;
+	text-align: center;
+	font-size: 26px;
+}
+.active{
+	
+	background: url(../img/sanjiao.PNG) 180px center no-repeat;
+	background-color: #FFF;
+}
+
+/*内容右边的早餐*/
+
+.contentRight_item{
+	
+    height: 192px;
+    width: 328px;
+    margin-left: 5px;
+ 	border:1px solid #BCBCBC;
+ 	margin-top: 5px;
+ 	
+}
+.content_right{
+	
+	width: 340px;
+}
+.contentRight_top{
+	border-bottom: 1px solid #BCBCBC;
+	width: 100%;
+	height: 125px;
+	
+}
+.contentRight_top img{
+	width: 85px;
+	height: 85px;
+	margin-top: 15px;
+	margin-left: 10px;
+	
+}
+.contentRight_bottom{
+	height: 67px;
+	background: url(../img/shizi.PNG) right center no-repeat;
+	margin-right: 20px;
+	
+}
+.contentRight_bottom h4{
+	padding-top: 10px;
+	color:#707070 ;
+	
+}
+.contentRight_bottom h4 span{
+	color: #F6AA9E;
+	display: block;
+}
+.contentRight_bottom .contentRight_font{
+   margin-left: 10px;   
+   height: 67px;
+}
+/*页脚元素*/
+.com-footer-area{	
+	height: 86px;
+	background-color: #e74c3c;
+	line-height: 86px;
+	position: relative;
+}
+.footer_center{
+	text-align: center;
+	color: #FFF;
+	font-size: 20px;
+	
+}
+.footer_right{
+	position: absolute;
+	right: 10px;
+	top: 0px;
+}
+.footer_right span{
+	font-size: 20px;
+	color: #FFF;
+	margin-right: 30px;
+	display: inline;
+}
+.footer_img{
+	position: absolute;
+	top: -50px;
+	left: 30px;
+}

@@ -1,0 +1,100 @@
+/*personal页面的css,可能会有重复，我是覆盖掉一些个属性*/
+.com-header-area{
+	height: 90px;
+	width: 100%;
+	text-align: center;	
+}
+.com-header-area h1{
+	font-weight: normal;
+}
+.content_modile{
+	width: 100%;
+	height: 170px;
+	background: url(../img/back1.png) left top no-repeat;
+}
+
+/*选项卡*/
+.content_card{
+	height: 700px;
+    padding-top: 20px;
+	background-color: #EDEDED;
+}
+
+.content_card .content_item{
+	
+	margin-bottom: 7px;
+	background-color: #FFF;
+	height: 100px;
+	width: 100%;
+	border-top: 1px solid #c1c1c1;
+	border-bottom: 1px solid #c1c1c1;
+	
+}
+.content_item input{
+	border: none;
+
+	width: 350px;
+}
+.contentItem_top input{
+	height: 40px;
+	border-bottom: 1px solid #b0b0b0;
+}
+.contentItem_top,.contentItem_bottom{
+	padding-top: 5px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+.login{
+	height: 170px;
+	color: #8a8a8a;
+}
+.login a{
+	display: block;
+}
+.login_btn{
+	color: #8a8a8a;
+	font-size: 16px;
+	margin: 20px auto;
+	text-align: center;
+	height: 50px;
+	width: 300px;
+	line-height: 50px;
+	background-color: #e4e4e4;
+}
+.regist{
+	margin-top: 10px;
+}
+.regist .fl{
+	margin-left: 20px;
+}
+.regist .fr{
+	margin-right: 20px;
+}
+.line{
+	height: 1px;
+	border-bottom:1px solid #424242 ;
+	width: 450px;
+	margin: 0 auto;
+	position: relative;
+	
+}
+.line img{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 100px;
+   height: 40px;
+   margin-left: -50px;
+   margin-top: -20px;
+	
+}
+.wechat{
+	margin-top: 20px;
+	text-align: center;
+}
+
+
+
+
+

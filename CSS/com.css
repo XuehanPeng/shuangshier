@@ -1,0 +1,23 @@
+*{-webkit-appearance: none;}
+a:visited,
+a{text-decoration:none;cursor:pointer;color:#575757;}
+a.a,.a{color:#2876D6;}
+input[type="checkbox"]{-webkit-appearance: checkbox;}
+body,html,h1,h2,h3,h4,p,ul,li,form{margin:0;padding:0;}
+body,input,textarea,select{font-size:14px;font-family:微软雅黑,雅黑;color:#575757;}
+
+input[type=button]:active,
+input[type=submit]:active,
+input[type=reset]:active{-moz-transform:rotate(0deg) scale(1.00,1.00) translate(0px,1px) skew(0deg,0deg);-moz-transform-origin:0% 0%;-webkit-transform:rotate(0deg) scale(1.00,1.00) translate(0px,1px) skew(0deg,0deg);-webkit-transform-origin:0% 0%;-o-transform:rotate(0deg) scale(1.00,1.00) translate(0px,1px) skew(0deg,0deg);-o-transform-origin:0% 0%;transform:rotate(0deg) scale(1.00,1.00) translate(0px,1px) skew(0deg,0deg);transform-origin:0% 0%;}
+textarea{resize:none;overflow:auto;}
+
+h4{font-size:16px;}
+h3{font-size:18px;}
+h2{font-size:20px;}
+h1{font-size:22px;}
+
+
+
+
+
+
